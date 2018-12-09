@@ -403,6 +403,9 @@
     <AppxPackagedFile Include="C:\Users\MixedReality\Documents\Mixed Reality Workshop\Mixed-Reality-Workshop\MR-mur\App\MR-mur\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MixedReality\Documents\Mixed Reality Workshop\Mixed-Reality-Workshop\MR-mur\App\MR-mur\AudioPluginMsHRTF.dll">
+      <PackagePath>AudioPluginMsHRTF.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MixedReality\Documents\Mixed Reality Workshop\Mixed-Reality-Workshop\MR-mur\App\MR-mur\Data\boot.config">
       <PackagePath>Data\boot.config</PackagePath>
     </AppxPackagedFile>
@@ -436,8 +439,14 @@
     <AppxPackagedFile Include="C:\Users\MixedReality\Documents\Mixed Reality Workshop\Mixed-Reality-Workshop\MR-mur\App\MR-mur\Data\managedAssemblies.txt">
       <PackagePath>Data\managedAssemblies.txt</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MixedReality\Documents\Mixed Reality Workshop\Mixed-Reality-Workshop\MR-mur\App\MR-mur\Data\nativePlugins.txt">
+      <PackagePath>Data\nativePlugins.txt</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MixedReality\Documents\Mixed Reality Workshop\Mixed-Reality-Workshop\MR-mur\App\MR-mur\Data\resources.resource">
       <PackagePath>Data\resources.resource</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MixedReality\Documents\Mixed Reality Workshop\Mixed-Reality-Workshop\MR-mur\App\MR-mur\Data\sharedassets0.resource">
+      <PackagePath>Data\sharedassets0.resource</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
