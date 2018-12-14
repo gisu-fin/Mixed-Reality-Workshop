@@ -5,12 +5,12 @@
 # Write a line equal to 'overwrite-all' (without quotes) to overwrite everything (preserved accross builds)
 # Write a line equal to 'keep-all' (without quotes) to keep files regardless their modification (preserved accross builds)
 # Default behavior is to never overwrite files
-MR-mur.sln: 8CEE01221E04A145532FA2F942708625
+MR-mur.sln: modified
 GeneratedProjects\UWP\Assembly-CSharp\project.json: 1D02BC64BAC0D041019673A1C4C51737
 MR-mur\App.cs: 19F9D9FF124F1B8A837233BBBBA06B50
-MR-mur\MR-mur.csproj: 0CE49BBAB412D92A82C84DD9181D817C
-MR-mur\MR-mur.csproj.user: BEFB8AC4886C4CFDD3C68445D6F19B04
-MR-mur\Package.appxmanifest: E17CC757E69C6C8A5B63746FD0BC90DA
+MR-mur\MR-mur.csproj: 5A1544EDFB287F5E891F075A70DB7B17
+MR-mur\MR-mur.csproj.user: modified
+MR-mur\Package.appxmanifest: modified
 MR-mur\project.json: 1D02BC64BAC0D041019673A1C4C51737
 MR-mur\Assets\SplashScreen.scale-200.png: A85C1D7624B6902CF8CEBD6F0200A826
 MR-mur\Assets\Square150x150Logo.scale-200.png: E02834B4A5DFB97FF8E212C1CACBB084
@@ -18,4 +18,5 @@ MR-mur\Assets\Square44x44Logo.scale-200.png: 6C6EF27184ABE9D870A9D564953775DE
 MR-mur\Assets\Square44x44Logo.targetsize-24_altform-unplated.png: 156637F7B5363E983E7A46D8E533A23D
 MR-mur\Assets\StoreLogo.png: 90BD194CA4A7CFFF3E8B8222229857FB
 MR-mur\Assets\Wide310x150Logo.scale-200.png: C96846A80DF667F87355569CD816192D
+MR-mur\obj\x86\Release\MR-mur.csproj.CopyComplete: D41D8CD98F00B204E9800998ECF8427E
 MR-mur\Properties\Default.rd.xml: 72EB282657164E79A1C42F6240984826
