@@ -5,52 +5,53 @@ using HoloToolkit.Unity.InputModule;
 
 public class CowSounds : MonoBehaviour, IFocusable
 {
+    AudioSource source = null;
+    AudioClip moo;
 
-    //AudioSource impactAudioSource = null;
+    bool play;
+    bool toggle;
 
-    public AudioClip moo;
-
-    private AudioSource source;
-
-    bool muu;
-
-   // bool gazing = false;
-
-    void Awake()
+    void Start()
     {
-       /* // Add an AudioSource component and set up some defaults
-        impactAudioSource = gameObject.AddComponent<AudioSource>();
-        impactAudioSource.playOnAwake = false;
-        impactAudioSource.spatialize = true;
-        impactAudioSource.spatialBlend = 1.0f;
-        impactAudioSource.dopplerLevel = 0.0f;
-        impactAudioSource.rolloffMode = AudioRolloffMode.Logarithmic;
-        impactAudioSource.maxDistance = 20f;
+        //source.clip = Resources.Load<AudioClip>("cow.wav");
+        source = gameObject.GetComponent<AudioSource>();
+        //source.playOnAwake = false;
+        //source.spatialize = true;
+        //source.spatialBlend = 1.0f;
+        //source.dopplerLevel = 0.0f;
+        //source.rolloffMode = AudioRolloffMode.Logarithmic;
+        //source.clip = Resources.Load<AudioClip>("cow");
+        //source.maxDistance = 20f;
+        play = true;
+    }
 
+    void Update()
+    {
+        if (play == true && toggle == true)
+        {
+            source.Play();
+            toggle = false;
+        }
 
-        // Load the Sphere sounds from the Resources folder
-        impactAudioSource.clip = Resources.Load<AudioClip>("cow");
-        */
+        if (play == false && toggle == true)
+        {
+            source.Stop();
+        }
 
-        source.clip = Resources.Load<AudioClip>("cow");
     }
 
 
     public void OnFocusEnter()
     {
+        //var aani = GetAudioSource(GameObject);
         Debug.Log("I'm looking at a " + gameObject.name);
-        source.clip = moo;
-        source.volume = 1f;
-        source.Play();
-        muu = true;
-
+      //  source.volume = 1f;
+        source.Play();  
     }
 
     public void OnFocusExit()
     {
         Debug.Log("I'm no longer looking at a " + gameObject.name);
-        source.Stop();
-        muu = false;
+        //source.Stop();
     }
 }
-
